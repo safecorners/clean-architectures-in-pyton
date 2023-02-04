@@ -7,8 +7,8 @@ class RoomJsonEncoder(json.JSONEncoder):
                 "code": str(o.code),
                 "size": o.size,
                 "price": o.price,
-                "latitude": o.latitude,
                 "longitude": o.longitude,
+                "latitude": o.latitude,
             }
             return to_serialize
         except AttributeError:
