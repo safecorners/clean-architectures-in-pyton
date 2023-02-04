@@ -10,8 +10,8 @@ class Room:
     latitude: float
 
     @classmethod
-    def from_dict(self, d):
-        return self(**d)
+    def from_dict(cls, d):
+        return cls(**d)
 
     def to_dict(self):
         return dataclasses.asdict(self)
