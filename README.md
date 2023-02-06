@@ -23,3 +23,21 @@ pytest -svv
 ```bash
 ./manage.py test -- --integration
 ```
+
+## Build a Docker Image
+
+```bash
+./manage.py compose build web
+```
+
+## Compose Up
+
+```bash
+./manage.py compose up -d
+```
+
+## Compose Down
+
+```bash
+./manage.py compose down
+```
