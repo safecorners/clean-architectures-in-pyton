@@ -41,3 +41,9 @@ pytest -svv
 ```bash
 ./manage.py compose down
 ```
+
+## Init DB
+
+```bash
+./manage.py init-postgres
+```
